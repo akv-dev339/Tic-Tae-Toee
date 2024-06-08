@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    /* height: 100%;
+    width: 100%; */
+    background-color: sienna;
+    text-align: center;
+}
+#container {
+    height: 70vh;
+    display: flex;
+  /* //background-color: aqua; */
+  
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+  }
+  
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+  }
+#msgbtn{
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff
+}
+#newbtn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+  }
+  
+  .msgContainer {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+.hide {
+    display: none;
+  }
+  footer{
+    position: fixed;
+    left: 0;
+    font-size: 0.8rem;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 1em;
+  }
+
+/* #main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.shape{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#square:hover{
+    background-color: rgb(198, 119, 16);
+}
+#diamond:hover{
+    background-color: rgb(41, 61, 198);
+    
+}
+#circle:hover{
+    background-color: rgb(121, 65, 188);
+    
+}
+#circle{
+    border-radius: 50%;
+}
+#diamond{
+    rotate: 45deg;
+    margin-top: 50px;
+    
+}
+#diamond h1{
+    rotate: -45deg;
+}
+h2{
+    color: rgb(18, 7, 6);
+    text-align: center;
+    margin-top: 80px;
+} */
